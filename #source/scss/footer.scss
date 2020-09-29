@@ -1,0 +1,41 @@
+.footer{
+
+	position: relative;
+	background-color:  #3c3c3c;
+	height: 100%;
+	bottom: 0;
+	z-index: 2;
+
+	.footer-body {
+		@include flexbox();
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 48px 0 0;
+	}
+	&__logo {
+		width: 122px;
+		height: 78px;
+		z-index: 3;
+
+
+	}
+	&__list {
+		@include flexbox();
+		padding: 35px 0 0;
+
+	}
+	&__link {
+		margin: 0 20px 0 0;
+		color: #a4a4a4;
+		}
+	&__licenze {
+		padding: 30px 0 50px 0;
+		color: #6c6c6c;
+		font-family: MyriadPro;
+	}
+}
+//====================================================================================================
+
+//====================================================================================================
+
