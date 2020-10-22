@@ -910,6 +910,8 @@ textarea.input {
   height: 100vh;
   top: 0;
   left: 0; }
+  .main-screen__bg img {
+    position: fixed; }
 
 .item {
   height: 100%;
